@@ -1,0 +1,72 @@
+.collapse{
+  margin-left: 10%;
+ 
+}
+.collapse a:hover{
+    background-color:#40A2D8;
+    border-radius: 5px;
+ 
+}
+.collapse a:active{
+    background-color: rgb(4, 22, 82);
+    border-radius: 5px;
+}
+.profil{
+    text-align: center;
+}
+.foto img{
+    width: 200px;
+    height: 220px;
+    border-radius: 10%;
+    border: 4px #0d6efd solid;
+    transition: transform 0.3s;
+}
+.foto img:hover{
+    transform: scale(1.1);
+}
+.nama{
+  font-weight: bold;
+  z-index: 1; 
+}
+.nama p{
+    color: rgb(105, 105, 105);
+}
+
+.about{
+    background-color: #ecf1fa;
+    height: auto;
+}
+ hr{
+    width: 30%;
+    display: inline-block;
+    border: 3px solid #0a57cc;
+}
+.foot{
+    background-color: #a2d9ff;
+    height:auto;
+ 
+}
+.footer h4{
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+    margin-bottom: 3px;
+    padding: 10px;
+    color: #00b380;
+}
+.form{
+   display: flex;
+   justify-content: center;
+}
+.contact{
+    background-color: #ecf1fa;
+    height: auto;
+}
+
+.mylogo{
+    background: linear-gradient(45deg, #1222ff, #ff4a03);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px; /* Sesuaikan ukuran teks sesuai kebutuhan */
+    font-weight: bold; /* Sesuaikan berat teks sesuai kebutuhan */
+}
+
